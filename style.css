@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --Color:#3A3A3A;
+    --heading1:36px;
+}
+/* Header section */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 100px;
+    height: 70px;
+    align-items: center;
+}
+.logo-title{
+    display: flex;
+    color:var(--Color);
+}
+.menu-items{
+    display: flex;
+}
+.menu-items ul{
+    display: flex;
+list-style-type: none;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: var(--Color);
+    margin-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* top Container section */
