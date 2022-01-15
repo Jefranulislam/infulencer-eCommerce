@@ -94,7 +94,6 @@ list-style-type: none;
 
 .container-info:hover .heading-animate{
     text-decoration: underline 05px #0072fa ;
-transition-property: inherit;
 transition-timing-function: 2s;}
 
 
@@ -107,6 +106,7 @@ transition-timing-function: 2s;}
     justify-content: space-between;
     justify-items: center;
     align-items: center;
+    margin:auto;
 }
 .container-info{
     width: 50%;
@@ -255,6 +255,7 @@ Mobile resizing end
     display: flex;
     flex-direction: column;
 justify-items: center;
+margin:auto;
 /* background-color: rgba(170, 170, 170, 0.082); */
     
 }
