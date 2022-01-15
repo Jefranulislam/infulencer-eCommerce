@@ -41,6 +41,29 @@ list-style-type: none;
     justify-content: space-between;
     align-items: center;
 }
+
+/* Tablet size media qu */
+@media only screen and (max-width:768px) {
+    .header-section{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+    .
+}
+
+/* Tablet size end */
+/* mobile size media qu */
+@media only screen and (max-width:480px) {
+    
+}
+
+/* mobile size end */
+
+
+
+
+
 /* Animatin Section */
 /* .heading-animate:after{
     color:inherit;
