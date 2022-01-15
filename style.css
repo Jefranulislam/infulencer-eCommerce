@@ -48,12 +48,18 @@ list-style-type: none;
 /* Tablet size media qu */
 @media only screen and (min-width:481px) and (max-width:768px) {
     .header-section{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 20px;
+        width: 90%;
+        display:flex;
+        justify-content:space-between;
+        padding:0% 5%;
     }
-    
+    .menu-items {
+        display: none;
+    }
+    .hide{
+        display: block;
+        margin-right: 100px;
+    }
 }
 
 /* Tablet size end */
@@ -128,31 +134,39 @@ transition-timing-function: 2s;}
 
 @media only screen and (min-width:481px) and (max-width:768px) {
     .container{
-        display: flex;
+        width:90%;
+        display:flex;
+        margin:auto;
         flex-direction: column-reverse;
-        width: 100%;
-        margin-top:25%;
-    }
-
-    .container-img img{
-        width:100%;
-
-    }
-    .container-info{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       justify-items: center;
-        margin-right: 100%;
-    }
-    .container-info h1, p{
-        text-align: center;
-    }
-    .container-button a{
-        text-align: center;
-        width: 100%;
-    }
+        }
+        .container-img img{
+            width:100%;
+        }
+        .container-info{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items: center;
+    
+        }
+        .container-info h1, p{
+            margin: auto;
+            text-align: center;
+      
+        }
+        .container-info p{
+            margin:0px 50px;
+        }
+        .container-button {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            text-align:center;
+            margin-top: 10px;
+            width: 100%;
+    
+        } 
 }
 /* ------------------Mobile resizing--------------------------- */
 @media only screen and (min-width:320px) and (max-width:480px) {
@@ -255,7 +269,7 @@ justify-items: center;
 }
 
 /* Tablet Resizing  */
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (min-width:481px) and (max-width:768px){
     .Product-collection{
         width: 100%;
         display: flex;
@@ -268,7 +282,7 @@ justify-items: center;
     }
     .products{
         display:grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
         justify-content: space-between;
         justify-items: center;    
